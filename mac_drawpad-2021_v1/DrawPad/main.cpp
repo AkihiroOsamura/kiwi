@@ -35,5 +35,8 @@ void DrawMain()
     DrawText("Hello, world!!", -12*14/2, -44, kColorRed);
     Sleep(0.5f);
     DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
+    
+    //ここから下に追加する
+    DrawText("Hello, world!!", -12*14/2, -88, kColorWhite);
 }
 
